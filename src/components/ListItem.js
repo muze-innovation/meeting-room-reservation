@@ -4,14 +4,14 @@ import { CardSection } from './common';
 import { Actions } from 'react-native-router-flux'
 
 class ListItem extends Component {
-    onRowPress() {
-        Actions.eventCreate({ event: this.props.event })
-    }
+    // onRowPress() {
+    //     Actions.eventCreate({ event: this.props.event })
+    // }
 
     render() {
         const { name } = this.props.event;
         return (
-        <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
+        // <TouchableWithoutFeedback onPress={this.onRowPress.bind(this)}>
             <View>
                 <CardSection>
                     <Text style={styles.titleStyle}>
@@ -19,7 +19,7 @@ class ListItem extends Component {
                     </Text>
                 </CardSection>
             </View>
-        </TouchableWithoutFeedback>
+        // </TouchableWithoutFeedback>
         )
     }
 }
