@@ -1,23 +1,19 @@
 {
-  "name": "meetingroomreservation",
+  "name": "react-native-keynote-presentation",
   "version": "0.0.0",
   "description": "Hello Expo!",
   "author": null,
+  "private": true,
   "main": "main.js",
-  "scripts": {
-    "test": "node node_modules/jest/bin/jest.js"
-  },
-  "jest": {
-    "preset": "jest-expo"
-  },
   "dependencies": {
-    "@expo/ex-navigation": "~3.0.0",
-    "@expo/samples": "~1.0.3",
     "expo": "17.0.0",
     "react": "16.0.0-alpha.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz"
-  },
-  "devDependencies": {
-    "jest-expo": "~1.0.1"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "firebase": "^4.0.0",
+    "lodash": "^4.17.4",
+    "react-native-router-flux": "^3.35.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   }
 }
